@@ -1,0 +1,14 @@
+.todo_item__button_wrap:not(:last-child) {
+    margin-right: 0.4rem;
+}
+
+.todo_item__button {
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.icon {
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+}

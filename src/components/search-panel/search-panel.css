@@ -1,0 +1,27 @@
+.todo__input_row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .todo__input_row {
+        grid-template-columns: 1fr;
+    }
+}
+
+.todo__input_wrap {
+    flex-grow: 1;
+}
+
+.todo__input {
+    width: 100%;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.4rem;
+    font-size: 2rem;
+}
+
+.todo__input_row:not(last-child) {
+    margin-bottom: 1.2rem;
+}

@@ -1,0 +1,36 @@
+.todo_form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.8rem;
+
+    margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 767px) {
+    .todo_form {
+        grid-template-columns: 1fr;
+    }
+}
+
+.todo_form__input {
+    flex: auto;
+
+    font-size: 2rem;
+    padding: 0.4rem 1.2rem;
+
+    border: 1px solid black;
+    border-radius: 0.4rem;
+}
+
+.todo_form__btn {
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo_form__btn:hover {
+    background-color: var(--hoverColor);
+}

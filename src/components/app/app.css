@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --hoverColor: rgba(167, 167, 167, 0.93);
+    --activeColor: #ffb27f;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: calc(100vw / 1200 * 10);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: calc(100vw / 375 * 10);
+    }
+}
+
+.base {
+    padding: 4rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "HelveticaNeueCyr";
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+}

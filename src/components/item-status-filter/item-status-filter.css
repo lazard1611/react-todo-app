@@ -1,0 +1,22 @@
+.btn__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 0.4rem;
+}
+
+.btn {
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--hoverColor);
+}
+
+.btn.btn--active {
+    background-color: var(--activeColor);
+}
+
